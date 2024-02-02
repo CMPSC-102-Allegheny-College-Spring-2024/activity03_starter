@@ -1,6 +1,6 @@
 ## Survey
 
-Data Types
+Approximation
 
 ## Assigned
 
@@ -19,6 +19,14 @@ We note that both of these functions are very similar mathematically and in stru
 The objective of this activity is to determine the mathematical pattern and to implement a slight modification to complete the current code in `source/rootApproximation.py`.
 
 This project offers you the opportunity to ensure that you understand how to (i) understand the basics of automated approximation and (ii) to recognize patterns to be used to evolve these root approximation calculators to find larger roots.
+
+## Running your code
+
+To run the source code, use the following command in your `source/` directory.
+
+``` bash
+python3 rootApproximation.py 
+```
 
 ## Sample Output
 
