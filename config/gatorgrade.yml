@@ -36,3 +36,9 @@
         fragment: "Add Your Name Here"
         count: 0
         exact: true
+        
+# count number of commits in the GitHub repository
+- description: Have at least a specific minimum of commits in repository
+  check: CountCommits
+  options:
+    count: 3
