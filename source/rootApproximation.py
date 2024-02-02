@@ -11,10 +11,9 @@ def fifth_root_approximation(number, tolerance=1e-6):
     guess = number / 2.0
     # Iterate until the approximation
     # is within the specified tolerance
-    while abs(guess**5 - number) > tolerance:
-            # Update the guess using the approximation formula
-            guess = (4 * guess + number / (guess**4)) / 5.0
-            print(f"\tguess = {guess}")
+
+    # TODO: complete the while code block
+    # TODO: report the approximation in the code block
     return guess
 
 def sixth_root_approximation(number, tolerance=1e-6):
@@ -23,10 +22,9 @@ def sixth_root_approximation(number, tolerance=1e-6):
     guess = number / 2.0
     # Iterate until the approximation
     # is within the specified tolerance
-    while abs(guess**6 - number) > tolerance:
-        # Update the guess using the approximation formula
-        guess = (5 * guess + number / (guess**5)) / 6.0
-        print(f"\tguess = {guess}")
+
+    # TODO: complete the while code block
+    # TODO: report the approximation in the code block
     return guess
 
 
