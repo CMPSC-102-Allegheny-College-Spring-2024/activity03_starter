@@ -19,5 +19,3 @@ TODO
 ## What limitations do you note from calculating approximations?
 
 TODO
-
-
